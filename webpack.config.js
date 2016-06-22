@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-    entry: "./es6/main.js",
+    entry: "./src/index.js",
     output: {
         path: path.join(__dirname, "dist" ),
         filename: "bundle.js",
@@ -11,7 +11,7 @@ module.exports = {
         loaders: [
             {
                 loader: "babel-loader",
-                test: path.join(__dirname, "es6"),
+                test: path.join(__dirname, "src"),
                 query: {
                     presets: "es2015",
                 },

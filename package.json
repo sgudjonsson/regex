@@ -1,7 +1,7 @@
 {
-  "name": "webpack-es6-starter",
-  "version": "1.1.1",
-  "description": "A minimal ES6 starter project that uses webpack, gulp and livereload.",
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "Regex tutorial stuff",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-loader": "^6.0.1",
@@ -14,14 +14,14 @@
     "node-libs-browser": "^0.5.3",
     "webpack": "^1.12.9"
   },
-  "main": "es6/main.js",
+  "main": "src/index.js",
   "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phparkle/webpack-es6-starter.git"
+    "url": "git+https://github.com/sgudjonsson/regex.git"
   },
   "keywords": [
     "webpack",
@@ -30,6 +30,6 @@
     "livereload",
     "starter"
   ],
-  "author": "Parkle Lee <phparkle@gmail.com>",
+  "author": "Sigurbjörn Guðjónsson <sigurbjorn.gudjonsson@gmail.com>",
   "license": "MIT"
 }
